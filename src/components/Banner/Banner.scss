@@ -1,0 +1,48 @@
+.banner{
+
+    .banner-text{
+        padding: 45px 70px;
+    }
+
+    .main-title{
+        font-weight: 700;
+        font-size: 36px;
+        color: black;
+        margin-bottom: 0px;
+    }
+    
+    .description{
+        color: rgb(82, 82, 82);
+        margin-bottom: 30px;
+    }
+
+    .btn--c{
+        padding: 5px 30px;
+        font-weight: 600;
+        border-radius: 3px;
+    }
+
+    .skills{
+        margin-right: 15px;
+        background-color: #37a000;
+        border: 2px solid #37a000;
+        color: white;
+
+        &:hover{
+            background-color: #43be00;
+            transition: all .15 linear;
+        }
+    }
+
+    .contact{
+        margin-right: 15px;
+        background-color: white;
+        border: 2px solid white;
+        color: #37a000;
+
+        &:hover{
+            background-color: rgb(228, 228, 228);
+            transition: all .15 linear;
+        }
+    }
+}
