@@ -1,7 +1,7 @@
 import React , { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
-import { faBars } from "@fontawesome/free-solid-svg-icons";
+//import { FontAwesomeIcon } from '@fontawesome/react-fontawesome';
+//import { faBars } from "@fontawesome/free-solid-svg-icons";
 import './Navbar.scss';
 
 class Navbar extends Component{
@@ -25,7 +25,7 @@ class Navbar extends Component{
                                 className="app-logo"
                             />
                             <div className="hamburger-menu" onClick={this.menuOpenHandler}>
-                                <FontAwesomeIcon icon={faBars} />
+                            
                             </div>
                             <ul className="nav-desktop">
                                 <li><NavLink to="/" className="nav--link">Home</NavLink></li>
