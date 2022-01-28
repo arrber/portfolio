@@ -1,48 +1,66 @@
 .banner{
+    background-size: 100% auto;
 
-    .banner-text{
-        padding: 45px 70px;
-    }
+    /* ff 3.6+ */
+    background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
 
-    .main-title{
-        font-weight: 700;
-        font-size: 36px;
-        color: black;
-        margin-bottom: 0px;
-    }
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* opera 11.10+ */
+    background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* ie 10+ */
+    background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+    /* global 92%+ browsers support */
+    background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
     
-    .description{
-        color: rgb(82, 82, 82);
-        margin-bottom: 30px;
-    }
-
-    .btn--c{
-        padding: 5px 30px;
-        font-weight: 600;
-        border-radius: 3px;
-    }
-
-    .skills{
-        margin-right: 15px;
-        background-color: #37a000;
-        border: 2px solid #37a000;
-        color: white;
-
-        &:hover{
-            background-color: #43be00;
-            transition: all .15 linear;
+    .banner-text{
+        padding: 45px 16px;
+        
+        .main-title{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 36px;
+            margin-bottom: 0px;
+        }
+        
+        .description{
+            margin-bottom: 30px;
+        }
+        
+        .btn--c{
+            padding: 5px 30px;
+            font-weight: 600;
+            border-radius: 3px;
+        }
+        
+        .skills{
+            margin-right: 15px;
+            background: #FF4820;
+            border: none;
+            font-family: Manrope;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 20px;
+            color: #FFFFFF;
+            cursor: pointer;
         }
     }
-
-    .contact{
-        margin-right: 15px;
-        background-color: white;
-        border: 2px solid white;
-        color: #37a000;
-
-        &:hover{
-            background-color: rgb(228, 228, 228);
-            transition: all .15 linear;
+    
+    
+    .banner-image{
+        flex: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        .logo-test{
+            width: 50%;
+            height: 50%;
         }
     }
 }
+
+

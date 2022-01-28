@@ -13,8 +13,8 @@ class Home extends Component {
                 </div>
                 <div className="container">
                     <div className="row">
-                        <div className="col-lg-12 pt-5">
-
+                        <div className="col-lg-12 pt-5 color--bg">
+                            <p>cardss and other stuff here</p>
                         </div>
                     </div>
                 </div>

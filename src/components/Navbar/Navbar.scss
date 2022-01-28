@@ -4,25 +4,69 @@
     padding-top: 8px;
     padding-bottom: 8px;
     z-index: 21;
-    background-color: rgb(37, 35, 35);
+    background: #FF8A71;
         
         .app-logo{
-            padding-left: 90px;
             height: 50px;
+        }
+
+        .hamburger-menu{
+            margin-left: auto;
+            display: none;
+            cursor: pointer;
+
+            @media (max-width: 960px){
+                display: block;
+            }
         }
 
         .nav-desktop{
             margin-left: auto;
             display: flex;
-            padding-right: 90px;
+            padding: 0;
             list-style: none;
             margin-bottom: 0;
 
             @media (max-width: 960px){
                 display: none;
             }
+            
+            li{
+                .nav--link{
+                    display: block;
+                    color: white;
+                    padding: 5px 15px;
+                    font-size: 16px;
+                    font-weight: 600;
+                    text-decoration: none;
+                    transition: all .15s linear;
+        
+                    &:hover{
+                        color: #FF8A71;
+                    }
+                }
+            }
         }
+}
 
+.nav-mobile{
+    margin-left: auto;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 0;
+    position: fixed;
+    top: 0;
+    background: white;
+    width: 100%;
+    z-index: 20;
+    left: 0;
+    top: -100%;
+    padding: 16px;
+    transition: all .35s linear;
+
+    @media (min-width: 960px){
+        display: none;
+    }
 
     li{
         .nav--link{
@@ -35,10 +79,12 @@
             transition: all .15s linear;
 
             &:hover{
-                color: rgb(188, 194, 188);
+                color: #FF8A71;
             }
         }
     }
 }
 
-
+.nav-mobile-active{
+    top: 65px;
+}

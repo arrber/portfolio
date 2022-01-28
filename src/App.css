@@ -1,3 +1,78 @@
-.bg{
-  background-color: #0c1211;
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+  font-family: 'Manrope', sans-serif;
+} 
+
+.gradient--bg{
+
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgba(0, 40, 83, 1) 0%, rgba(4, 12, 24, 1) 100%);
+
 }
+
+.color--bg{
+  background: #040c18;
+}
+
+.color--footer{
+  background: #031b34;
+}
+
+.color--text{
+  color: #81afdd;
+}
+
+.color--subtext{
+  color: #FF8A71;
+}
+
+.color--title{
+  color: #042c54;
+}
+
+.gradinet--text{
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 3% 25%, rgba(4, 44, 84, 1) 0%, rgba(255, 138, 113, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 3% 25%, rgba(4, 44, 84, 1) 0%, rgba(255, 138, 113, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 3% 25%, rgba(4, 44, 84, 1) 0%, rgba(255, 138, 113, 1) 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 3% 25%, rgba(4, 44, 84, 1) 0%, rgba(255, 138, 113, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 3% 25%, rgba(4, 44, 84, 1) 0%, rgba(255, 138, 113, 1) 100%);
+}
+
+/*
+color-bg #040c18
+color-footer #031b34
+color-blog #042c54
+color-text #81afdd
+color-subtext #FF8A71
+
+gradient-text linear-gradient(89.97deg, #AE67FA 1.84%
+
+
+
+*/

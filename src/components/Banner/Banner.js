@@ -7,16 +7,19 @@ const Banner = () => {
             <div className="container">
                 <div className="row">
                     <div className="col-lg-6 banner-text">
-                        <p className="main-title">
+                        <h1 className="color--subtext main-title">
                             Hello I'm Arber, <br />
                             I love building websites.    
-                        </p>
-                        <p className="description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </h1>
+                        <p className="color--text description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
                         <button className="btn--c skills">Skills</button>
-                        <button className="btn--c contact">Contact</button>
                     </div>
-                    <div className="banner-image">
-
+                    <div className="col-lg-6 banner-image">
+                        <img 
+                            src="/assets/images/banner.png" 
+                            alt="Banner logo"
+                            className='logo-test'
+                        />
                     </div>
                 </div>
             </div>

@@ -4,8 +4,8 @@ import { Route, Routes, BrowserRouter } from 'react-router-dom';
 import './App.css';
 
 //Components
-import Navbar from './components/Navbar/Navbar';
 import Footer from './components/Footer/Footer';
+import Navbar from './components/Navbar/Navbar';
 
 //Pages
 import Home from './pages/Home/Home';
@@ -15,7 +15,7 @@ class App extends Component {
   render() {
     return (
       <BrowserRouter>
-      <div className="container-fluid bg">
+      <div className="container-fluid">
         <Navbar/>
         <Routes>
           <Route path="/templates" exact element={<Templates/>} />
