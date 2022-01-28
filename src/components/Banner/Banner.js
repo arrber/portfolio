@@ -12,7 +12,7 @@ const Banner = () => {
                             I love building websites.    
                         </h1>
                         <p className="color--text description">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                        <button className="btn--c skills">Skills</button>
+                        <button className="btn-skills">Skills</button>
                     </div>
                     <div className="col-lg-6 banner-image">
                         <img 

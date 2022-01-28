@@ -18,7 +18,7 @@ class Navbar extends Component{
             <div className="row">
                 <div className="container">
                     <div className="row">
-                        <div className="app-navbar col-12">
+                        <div className="app-navbar col-12 gradient--bg">
                             <img
                                 src="/assets/images/banner.png"
                                 alt="React-logo"

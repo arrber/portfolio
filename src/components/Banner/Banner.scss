@@ -30,22 +30,23 @@
             margin-bottom: 30px;
         }
         
-        .btn--c{
+        .btn-skills{
             padding: 5px 30px;
-            font-weight: 600;
+            font-weight: 500;
             border-radius: 3px;
-        }
-        
-        .skills{
             margin-right: 15px;
             background: #FF4820;
             border: none;
             font-family: Manrope;
             font-style: normal;
-            font-weight: bold;
-            font-size: 20px;
+            font-size: 18px;
             color: #FFFFFF;
-            cursor: pointer;
+            transition: all .15s linear;
+
+            &:hover{
+                background: #ff3e13;
+                cursor: pointer;
+            }
         }
     }
     
